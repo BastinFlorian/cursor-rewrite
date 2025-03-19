@@ -6,3 +6,8 @@
   margin: 0 auto;
   width: 100%;
 }
+
+.typing-indicator-container {
+  padding: 0 20px;
+  align-self: flex-start;
+}

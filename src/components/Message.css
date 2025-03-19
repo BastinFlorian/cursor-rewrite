@@ -21,6 +21,36 @@
   word-break: break-word;
 }
 
+.message-content p {
+  margin: 0 0 8px 0;
+}
+
+.message-content p:last-child {
+  margin-bottom: 0;
+}
+
+.message-content pre {
+  margin: 8px 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.message-content code {
+  font-family: 'Fira Code', monospace;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.bot-message .message-content code {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.user-message .message-content code {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .message-timestamp {
   font-size: 0.7rem;
   opacity: 0.7;
